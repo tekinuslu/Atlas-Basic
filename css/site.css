@@ -1,0 +1,297 @@
+.modal-content{padding:4px;}
+.blue {color:blue;}
+.btn-info{ background-color:#efefef ; margin:1px; border:1px ridge #0961AC;}
+.btn-group-lg > .btn, .btn-lg {font-size:14px;}
+.navbar-nav > li > a {padding:12px 16px;}
+.modal-footer{text-align:left;}
+.forgot-password a .label-text{text-decoration: underline; font-size:13px;}
+
+.navbar-inverse .navbar-nav > li > a {color:#fff; font-size:14px; font-weight: bold;}
+.navbar-inverse .navbar-nav > li > a:hover {color:#41aee4; font-size:14px; font-weight: bold;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{background-color:white; color:#093679; font-weight: bold; margin: 4px}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{background-color: #093679; }
+.navbar-inverse{background-color: #093679;}
+
+/*versie beheer info*/
+#versiebeheer{color:#fff; font-size:11px; background-color; font-weight: bold; border:1px solid #fff;}
+#versiebeheer:hover{color:#4e5051; font-size:14px; background-color:#fff; font-weight: bold; border-left:1px solid #fff;}
+
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+/*OL map*/
+#map{float: right; width:100%; height:100%; min-height:100%; background-color:#fff; margin-top:2px; margin-bottom:7px;}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 10px;
+  height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+
+  background-color: #f5f5f5;
+}
+
+.footer .container a{color:#fff; font-weight: bold; font-size:12px;}
+.footer .container p{color:#b0b0b0;}
+
+a.version_link {
+  color:#DCDCDC !important;
+  cursor: pointer;
+  font-weight: bold;
+  font-size:11px !important;
+  text-decoration: underline;
+}
+
+a.version_link_titel{
+  color:#000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  font-size:12px !important;
+  text-decoration: underline;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+body > .container-fluid {
+  padding-top: 50px;
+  font-size: 14px;
+}
+.container-fluid .col-sm-6 {
+  padding: 0;
+}
+.navbar {
+  margin-bottom: 0;
+}
+
+.footer{background-color:#003366;  padding:7px 0px; width:100%; text-align:center !important; font-size:11px; color:#000; font-family:Arial,Helvetica,sans-serif;}
+.footer p{color:#fff;}
+.footer p:last-of-type{margin-bottom:0;}
+
+.main-content {
+  padding: 2px;
+  height:calc(100vh - 85px);
+  overflow-y: hidden;
+}
+
+.main-content-layer {
+  padding: 2px;
+  height:calc(100vh - 85px);
+  overflow-y: auto;
+}
+
+.olControlLoadingPanel {background-image:url(img/297.gif);  background-color:white; opacity:0.9; position: absolute; border-top:7px solid #E7E3DA; border-right:7px solid #E7E3DA; bottom:0px; left:0px; width:92px; height:41px; background-repeat:no-repeat; display: none;}
+/*Custom Button*/
+.olControlCustomButtonItemInactive{background-image:url('img/over_zoom_in.png'); background-repeat:no-repeat; float:left; border:none;  margin-right:3px; margin-left:5px; margin-top:5px; background-color: white; cursor: pointer; height: 26px; width:26px;}
+.zoomoutItemInactive{background-image:url('img/over_zoom_out.png'); background-repeat:no-repeat; float:left;  margin-right:3px; border:none; margin-left:5px; margin-top:-6px; background-color: white; cursor:pointer; height:26px; width:26px;}
+.search{background-color:#ff9900; color:#fff;}
+.search:hover{background-color:#0961AC; color:#fff;}
+#messageinvul{display:none; }
+.right{font-size:14px;float:right; padding:2px; margin-right:auto; margin-left:auto;}
+.filterzkbtn{font-size:13px; padding:2px 10px; margin-bottom:7px; background-color: #ff9900; border:none;}
+#zoekfiltbar{margin-left:-10px;}
+.list-group-item {display: list-item;}
+
+table#lagentbl tr th.eerste{width:30%;}
+table#lagentbl tr th.tweede{width:15%;}
+.eerste{
+  width: 60%;
+}
+.tweede{
+  width: 40px;
+}
+
+table.table tr a{cursor: pointer;}
+
+.table tr td{font-size:12px;}
+
+.check{opacity:0.5; color:#996;}
+
+.layer-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.layer-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.layer-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 10px;
+    margin-top: -3px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 38px;
+}
+.layer-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 20px;
+    left: -2px;
+    margin-top: -4px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 20px;
+}
+.layer-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.layer-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+.label-success {
+    background-color: #afc812;
+}
+
+.layerName {color:#4e5051; font-weight: bold;}
+
+/*toogle style */
+.tooglmenubtn{padding:2px; color:#4e5051; font-size:12px; font-weight: bold; width:95%; margin-left:auto; margin-right:auto; margin-top:6px; margin-bottom:8px; border:1px solid #fff;}
+.tooglmenubtn a{color:#a4a9ac; font-size:12px; font-weight: bold; padding:2px;}
+
+.accordion-toggle:after { font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */ content: "\e114"; float: right; color: #a4a9ac;}
+
+.accordion-toggle.collapsed:after { /* symbol for "collapsed" panels */ content: "\e080";    /* adjust as needed, taken from bootstrap.css */}
+
+/*END toogle style */
+
+/* footer*/
+.container-fluid p{font-size:11px; color:grey;}
+
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;}
+.red-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#f00; }
+
+.dataresult{margin:4px; font-size:12px;}
+.dataresultReferentie{margin:4px; font-size:12px; text-decoration: underline;}
+
+#dataResult{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: auto;
+  max-height: 240px;
+}
+
+/*look at map button size*/
+.btn-sm{
+  padding: 4px;
+  font-size: 11px;
+  margin-left:4px;
+  background-color:#a4a9ac;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* col Design */
+
+.col-sm-8, .col-sm-4{
+  padding:0px !important;
+}
+
+/* table width */
+.eerste_div{
+  width: 40%;
+}
+
+.tweede_div{
+  width: 60%;
+  text-align: right;
+}
+
+/* popup div */
+#rel_popup_div{
+  display: none;
+  position: absolute;
+  z-index:4000;
+  bottom:49px;
+  padding:4px;
+  right:7px;
+  width: 350px;
+  height:310px;
+  background-color:#fff;
+  border:2px outset #D3D3D3;
+  box-shadow:0px 0px 6px 3px #D3D3D3;
+}
+
+.info-div-all h5{
+  font-size:15px;
+  background-color: #003366;
+  color: #fff;
+  cursor: move;
+  padding:4px;
+  height:27px;
+  width: 100%;
+}
+
+.btn-cls_data{
+  font-weight: bold;
+  float:right;
+  color:#fff;
+  font-size:13px;
+  padding:3px;
+  background-color: #003366;
+  margin-top:-4px;
+}
+
+#popupTitle{
+  background-color:#093679;
+  color:#fff;
+  padding:3px;
+  font-size:14px;
+  width:93%;
+  float:left;
+}
+
+#close_btn{
+  color:#fff;
+  background-color:#322e2d;
+  padding:1px 3px;
+  float:right;
+}
+
+/* boot strap alert settings */
+.mt-alerts {
+    position:fixed;
+    z-index: 1001;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+
+/* EOF */

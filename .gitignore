@@ -1,0 +1,13 @@
+#IOS Files
+.DS_Store
+/venv
+/__py*
+z_*
+*_bak*
+*.bak*
+.*.swp
+*.django
+migrations
+env_local_mahbook.sh
+# local link to config file: config_local.py or config_cloud.py
+config.py

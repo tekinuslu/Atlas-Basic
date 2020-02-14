@@ -1,0 +1,963 @@
+   .tektabl{background-color:#d5f0fa; font-size:12px; font-weight:bolder; width:100px; padding:3px; text-align:left;}
+   .tektr{background-color:#eaf7fc; font-size:11px; padding:3px; width:190px; text-align:left;}
+   .tektr_img{background-color:#eaf7fc; font-size:80%; padding:3px; width:115px; height:80px; text-align:center;}
+   #legenda_menu{height:auto; width:290px; text-align:left; margin-left:5px; margin-top:0px;}
+   #result{margin:5px 0px;}
+   #result img{border:none;}
+   #result_dialog{display:none; position:absolute; left:50%; top:0px; z-index:1000;}
+   #result_table{background-color:#BCD5EC; width:353px; font-famly: Verdana,Arial,Helvetica,sans-serif;  margin-top:3px; margin-bottom:5px; font-size:14px; padding:3px 0px 3px 2px; color:#000;}
+   #thema_legend{background-color:#BCD5EC; width:353px; font-famly: Verdana,Arial,Helvetica,sans-serif;  margin-top:3px; margin-bottom:5px; font-size:14px; padding:3px 0px 3px 2px; color:#000;}
+   #thema_legend{background-color:#BCD5EC; width:353px; font-famly: Verdana,Arial,Helvetica,sans-serif;  margin-top:3px; margin-bottom:5px; font-size:14px; padding:3px 0px 3px 2px; color:#000;}
+   .legenda_tab{font-famly: Verdana,Arial,Helvetica,sans-serif; font-size:12px; padding-left:7px;}
+   #zoek_table{background-color:#BCD5EC; width:353px; cursor:pointer; font-famly: Verdana,Arial,Helvetica,sans-serif; margin-bottom:3px; font-size:14px; padding:3px 0px 3px 2px; color:#000;}
+   #img_head{width:84%; text-align:right;}
+   #img_head img{border:none;}
+   #img_head_info{width:100%; text-align:center; padding-top:10px;}
+   #img_head_info  img{border:none;}
+   #categories{text-align:left; height:200px; overflow:auto;}
+   #categories li{cursor:pointer;}
+   #legenda_id{background-color:white; margin-top:7px; padding:2px;}
+   legend{padding:3px 6px; border:1px solid #9091CA; margin-bottom:8px; font-size:11px;  background-color:#dfeaf1;}
+   fieldset {border:1px inset #9091CA; padding:3px;}
+   #listelerim li{cursor:pointer;}
+   #layer_menu .baseLbl, #layer_menu .dataLbl {background-color:#D8D5D5; color:#000; font-size:11px;  padding:5px;}
+   #layer_menu	.baseLayersDiv, #layer_menu	.dataLayersDiv{font-size:11px; padding:7px;}
+   .highlight{background-color:#3399FF;}
+   .hover_button{background-color:#3399FF; color:#fff; cursor:pointer;}
+   .uygun{visibility:visible;}
+	 /*slider*/
+	.label_div2{text-align:left; font-size:11px; margin-top:2px; padding:0px; background-color:#fff; border:1px solid #9b9d9e; border-radius:7px;}
+    /*Select provencie*/
+
+  .selectCity_div{text-align:center; margin-top:2px; padding:0px; background-color:#afc812; border-top-left-radius:7px; border-top-right-radius:7px;}
+  .selectCity_div select{font-family: Cursive; font-size: 13px; padding:2px; width: 170px; height: 28px; overflow: hidden; background: url('http://s24.postimg.org/lyhytocf5/dropdown.png') no-repeat right #FEFEFE; border: #FEFEFE 1px solid; -webkit-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE; box-shadow: inset 0px 0px 10px 1px #FEFEFE;}
+  .selectCity_div option{color:#000; background-color:#afc812; padding: 3px;}
+  .selectCity_div #selectCity{padding: 7px;}
+
+    /*END provencie select*/
+
+  .label_div table{width:100%; font-size:14px !important;}
+  .label_div {margin:2 0px; display:none; }
+  .label_div table tr{background-color:#F6F8FF;}
+  .label_div table tr td{padding:5px;}
+
+	#park_slide2, #topo_slide2{cursor:pointer; width:130px; border:1px ridge #9091CA;}
+	.eerst_div{width:200px; padding-left:3px; font-family:Verdana, Geneva, sans-serif;}
+	.tweede_div{width:140px; }
+
+	.ui-slider .ui-slider-handle {text-align:center !important; cursor:pointer; background: #282AA5 !important; color:#fff  !important; height: 25px !important;width: 30px !important;margin: 0 !important;padding: 4px !important;}
+	/*END slider*/
+   #select_button{position:absolute; border: 1px outset #000; vertical-align:middle; width:352px; background-color:#CDCDCD; margin-top:4px; margin-left:0px; padding:2px;  font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-align:center; cursor:pointer;}
+   .thema_items .thema_head{background-color:#CDCDCD; padding-top:3px; font-size:12px; font-famly: Verdana,Arial,Helvetica,sans-serif; }
+   .thema_items{margin-top:5px; background-color:#afc812;}
+   .thema_items2{ margin-top:15px;}
+   div.panel p{font-size:80%; padding:2px;}
+   div.panel  h5{color:blue; margin-top:-10px; margin-bottom:-10px;}
+   div.panel{height:600px; x #c3c3c3;}
+   .flip{float:right; background-color:blue; color:#fff; font-weight:bold; font-size:95%; padding:2px; cursor:pointer;}
+
+   .copy{font-size:0.6em; margin:10px 0; color:#777; text-align:center; padding-bottom: 10px;}
+   .social img{border:none;}
+   .desing_tekin{font-size:100%; margin-left:100px; color:#0080ff;}
+   .desing_tekin a{background-color:#0080ff; font-size:120%; color:#fff; text-decoration:none; padding-left:5px; padding-right:5px;}
+   .desing_tekin a:hover{background-color:#fff; font-size:130%; color:#0080ff; text-decoration:none; padding-left:5px; padding-right:5px;}
+
+   /* Remove the navbar's default margin-bottom and rounded borders */
+	.navbar {
+	  margin-bottom: 0;
+	  border-radius: 0;
+	}
+
+	/* Add a gray background color and some padding to the footer */
+	footer {
+	  background-color: #f2f2f2;
+	  padding: 25px;
+	}
+	/* slider handle text */
+	#custom-handle {
+		width: 3em;
+		height: 1.6em;
+		top: 50%;
+		margin-top: -.8em;
+		text-align: center;
+		line-height: 1.6em;
+	}
+	.checkbox {margin-left:6px;}
+
+	/*ZoomBox Control*/
+	#boven_menu .olControlZoomToMaxExtentItemInactive{width:36px; height: 36px; float:left; margin-right:3px; cursor:pointer; background-image:url('img/over_zoom_overview.png');  background-repeat:no-repeat; border:none;}
+	/*Custom Button*/
+	.olControlCustomButtonItemInactive{background-image:url('img/over_zoom_in.png'); background-repeat:no-repeat; float:left; border:none;  margin-right:3px; cursor: pointer; height: 36px; width:36px;}
+	.zoomoutItemInactive{background-image:url('img/over_zoom_out.png'); background-repeat:no-repeat; float:left;  margin-right:3px; border:none; cursor:pointer; height:36px; width:36px;}
+	.olControlAttribution{position:absolute; font-size:10px; bottom:0 !important; right:0 !important; background: rgba(0,0,0,0.1); font-family :Arial; padding:2px 4px; border-radius: 5px 0 0 0;}
+	#recht_menu{position:absolute;left:10px;top:5px;text-align:left; width:210px; z-index:1000;}
+	#boven_nav{background-color: #F6F8FF; text-align:left; padding:4px; border:1px ridge #9091CA}
+	/*zoken*/
+	#result{height:240px; display:none; overflow:auto;}
+	#huisnr_show {display:none; font-size:11px;}
+	#load_imge{display:none; font-size:11px;}
+	.info_logo{cursor:pointer; width:36px; height:36px; margin-left:40px;}
+	#post_inty{width:180px; font-size:11px;}
+	#hilitepopup{position: absolute; z-index: 20000; font-size:11px; background-color: #e6fefd; border: 1px inset black; padding: 5px;}
+	.legend_text{font-size:11px;}
+	#zoeken{font-size:11px;}
+	#zoeken:hover{border:1px outset #e6fefd; cursor:pointer;}
+	#huisnmr{font-size:11px;}
+	#div_zoek{background-color:white;}
+	.olControlLoadingPanel {background-image:url(img/297.gif);  background-color:white; opacity:0.9; position: absolute; border-top:7px solid silver; border-right:7px solid silver; bottom:0px; left:0px; width:92px; height:41px; background-repeat:no-repeat; display: none;}
+
+   .copy a
+   {
+        text-decoration: none;
+        color:#635852;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform:uppercase;
+   }
+
+   .copy a:hover
+   {
+        color:#02a100;
+   }
+   /*Header*/
+    #wrapper
+    {
+        height:auto !important;
+        margin-bottom:-120px;
+        min-height:100%;
+    }
+
+    #header
+    {
+        height: 150px;
+        width:100%;
+    }
+
+    .menu_div
+    {
+        width:980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   .menu_div .div_img
+   {
+        float:left;
+        margin-top:0px;
+        padding: 2px;
+        width:455px;
+        height:107px;
+        border-radius: 7px;
+        box-shadow:#888888 10px 10px 5px;
+   }
+
+
+    .menu_div #link_menu
+    {
+        width:150px;
+        float: right;
+        height:120px;
+        margin-top:10px;
+    }
+
+    #link_menu .menu_linkler a
+    {
+        text-decoration: none;
+        color:#635852;
+        padding:0.2em 0.6em;
+        font-family:'Avenir LT W01 35 Light';
+        font-size: 12px;
+        font-weight: bold;
+        text-transform:uppercase;
+    }
+
+    #link_menu .menu_linkler a:hover
+    {
+         color:#02a100;
+    }
+
+    ul.menu_linkler
+    {
+        list-style-type: none;
+    }
+
+    #navigation_div
+    {
+        border-color:#C9CCAE;
+        border-style:solid;
+        border-width:2px 0;
+        width:100%;
+        margin-bottom:40px;
+   }
+
+   .nav-menu span
+   {
+        display:block;
+   }
+
+    #navigation
+    {
+        width:910px;
+        height:25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.nav-menu
+    {
+        float:left;
+        width:100%;
+        padding:0;
+        margin:0;
+        list-style-type:none;
+    }
+
+    ul.nav-menu a
+    {
+        float:left;
+        width:150px;
+        text-decoration:none;
+        color:#635852;
+        padding:0.2em 0.6em;
+        font-family:'Avenir LT W01 35 Light';
+        font-size: 16px;
+        font-weight: bold;
+        text-transform:uppercase;
+        position:relative;
+    }
+
+    ul.nav-menu a img
+    {
+       margin-top:-7px;
+       border: none;
+    }
+
+    ul.nav-menu  a:hover
+    {
+        color:#566C11;
+    }
+
+    ul.nav-menu  li
+    {
+        display:inline;
+    }
+
+    #navigation li.active a
+    {
+        width:150px;
+        display: inline;
+        text-decoration:none;
+        color:#1B93FA;
+        padding:0.2em 0.6em;
+        font-family:'Avenir LT W01 35 Light';
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform:uppercase;
+
+    }
+
+   /*Content */
+   #content
+   {
+    width: 970px;
+    height:800px;
+    margin-left:auto;
+    margin-right: auto;
+   }
+
+   #zoekopadres{
+     position:absolute;
+     top:7px;
+     left:53px;
+     width:260px;
+     z-index:1000;
+   }
+
+   .btn_stret_sty img{
+     position:absolute;
+     background-color: #ffff;
+     border:2px outset #729da6;
+     padding:2px;
+     top:55px;
+     left:61px;
+     height: 35px;
+     width: 35px;
+     z-index:1000;
+     cursor:pointer;
+   }
+   /*street view div*/
+   #street-view {
+     display: none;
+     position: absolute;
+     top:155px;
+     left: 63px;
+     height: 350px;
+     width: 370px;
+     z-index: 1000;
+     box-shadow: 0px 0px 6px 3px #D3D3D3
+   }
+
+   /* mobile device */
+   @media screen and (max-width:560px){
+     #street-view{
+       position: absolute !important;
+       top:155px !important;
+       left: 13px !important;
+       height: 200px !important;
+       width: 95% !important;
+       z-index: 1000 !important;
+     }
+
+     /* data menu style */
+     #layer_list_menu{
+       position: absolute !important;
+       top:155px !important;
+       left: 13px !important;
+       height: auto !important;
+       max-height: 200px !important;
+       width: 95% !important;
+       z-index: 1000 !important;
+     }
+
+     #rel_popup_div{
+       position: absolute !important;
+       z-index:4000 !important;
+       bottom:49px !important;
+       padding:4px !important;
+       right:7px !important;
+       width: 95% !important;
+       height:310px !important;
+       background-color:#fff !important;
+       border:2px outset #D3D3D3 !important;
+       box-shadow:0px 0px 6px 3px #D3D3D3 !important;
+     }
+
+   }
+
+   .street_view_actief img{
+     background-color: #729da6 !important;
+     border:2px inset #fff !important;
+   }
+
+   .layerlist_view_actief img{
+     background-color: #729da6 !important;
+     border:2px inset #fff !important;
+
+   }
+
+  #layer_list_menu{
+    display: none;
+    position: absolute;
+    top: 155px;
+    left: 106px;
+    height: auto !important;
+    max-height: 320px !important;
+    width: 370px;
+    z-index: 1000;
+    box-shadow: 0px 0px 6px 3px #D3D3D3
+  }
+
+  .thema_layer_menu{
+    background-color: #fff;
+    padding:3px;
+    height: auto !important;
+    max-height: 320px !important;
+    overflow-x: auto !important;
+  }
+
+  .layer_title{
+    font-size:16px;
+    background-color:#003366;
+    color:#fff;
+    padding: 3px 10px;
+    margin: 0;
+  }
+
+   .btn_layerlist img{
+     position:absolute;
+     background-color: #ffff;
+     border:2px outset #729da6;
+     padding:2px;
+     top:55px;
+     left:106px;
+     height: 35px;
+     width: 35px;
+     z-index:1000;
+     cursor: pointer;
+   }
+
+   #filter_data img{
+     position:absolute;
+     background-color: #ffff;
+     border:2px outset #729da6;
+     padding:2px;
+     top:55px;
+     left:151px;
+     height: 35px;
+     width: 35px;
+     z-index:1000;
+   }
+
+   /* autocomplete */
+   .ui-autocomplete{
+     font-size: 12px;
+     z-index:2550;
+     height: 250px;
+     width: 80px;
+     overflow-y: auto;
+     overflow-x: hidden;
+   }
+
+   .widget-title
+    {
+        background-color:#003366;
+        background-position:initial initial;
+        background-repeat:initial initial;
+        border-radius:7px;
+        color:white;
+        text-align:center;
+        padding: 6px 2px;
+        font-size:15px;
+        width: 100%;
+    }
+   /* Basemap buttons */
+
+    .layerPanel {
+        background-color: white;
+        padding:6px 2px;
+        border:2px solid #C4B28F;
+        border-radius: 5px;
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        z-index: 20000;
+    }
+
+
+    div.layerPanel div
+    {
+        display: inline;
+        margin-left: 1px;
+        cursor: pointer;
+    }
+
+    div.layerPanel div:after
+    {
+        font-weight: bold;
+        font-size: 14px;
+        font-family: arial;
+        padding: 4px;
+        color: #000;
+
+        background: rgba(196, 178, 143, 1);
+    }
+
+
+    div.layerPanel div.labelButtonItemInactive:after,
+    div.layerPanel div.labelButtonItemActive:after
+    {
+        content: 'Labels';
+    }
+
+    :lang(de) div.layerPanel div.labelButtonItemInactive:after,
+    :lang(de) div.layerPanel div.labelButtonItemActive:after
+    {
+        content: 'Text';
+    }
+
+    div.layerPanel div.labelButtonItemActive:after
+    {
+        text-decoration: underline;
+        background: rgba(0,0,100,0.2);
+    }
+
+div.layerPanel div.aerialButtonItemInactive:after,
+div.layerPanel div.aerialButtonItemActive:after {
+    content: 'Luchtfoto';
+    border-radius: 5px 0 0 5px;
+}
+:lang(de) div.layerPanel div.aerialButtonItemInactive:after,
+:lang(de) div.layerPanel div.aerialButtonItemActive:after {
+    content: 'Luftbild';
+}
+div.layerPanel div.aerialButtonItemActive:after {
+    text-decoration: underline;
+    background: rgba(196,178,143,0.2);
+}
+div.layerPanel div.mapButtonItemInactive:after,
+div.layerPanel div.mapButtonItemActive:after {
+    content: 'Topo-kaart';
+    border-radius: 0 5px 5px 0;
+}
+:lang(de) div.layerPanel div.mapButtonItemInactive:after,
+:lang(de) div.layerPanel div.mapButtonItemActive:after {
+    content: 'Karte';
+}
+div.layerPanel div.mapButtonItemActive:after {
+    text-decoration: underline;
+    background: rgba(196,178,143,0.3);
+}
+div.layerPanel div.mapButtonItemInactive,
+div.layerPanel div.mapButtonItemActive {
+    margin-left: 1px;
+}
+
+div.olMap {
+    z-index: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: default;
+}
+
+div.olMapViewport {
+    text-align: left;
+}
+
+div.olLayerDiv {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+}
+
+.olLayerGoogleCopyright {
+    left: 2px;
+    bottom: 2px;
+}
+.olLayerGoogleV3.olLayerGoogleCopyright {
+    right: auto !important;
+}
+.olLayerGooglePoweredBy {
+    left: 2px;
+    bottom: 15px;
+display:none;
+}
+.olLayerGoogleV3.olLayerGooglePoweredBy {
+    bottom: 15px !important;
+}
+.olControlAttribution {
+    font-size: smaller;
+    right: 3px;
+    bottom: 4.5em;
+    position: absolute;
+    display: block;
+}
+.olControlScale {
+    right: 3px;
+    bottom: 3em;
+    display: block;
+    position: absolute;
+    font-size: smaller;
+}
+.olControlScaleLine {
+    bottom: 2px;
+    right: 2px;
+    display: block;
+    position: absolute;
+    font-family: Arial;
+    padding:2px;
+    border:1px solid silver;
+    font-size:10px;
+    background-color: #E7E3DA;
+    height:17px;
+}
+.olControlScaleLineBottom {
+   border: solid 2px black;
+   border-bottom: none;
+   margin-top:-2px;
+   text-align: center;
+}
+.olControlScaleLineTop {
+   border: solid 2px black;
+   border-top: none;
+   text-align: center;
+}
+
+.olControlPermalink {
+    right: 3px;
+    bottom: 1.5em;
+    display: block;
+    position: absolute;
+    font-size: smaller;
+}
+
+div.olControlMousePosition {
+    top: 4px;
+    right: 2px;
+    display: block;
+    position: absolute;
+    font-family: Arial;
+    padding:0px;
+    border:1px solid silver;
+    font-size:11px;
+    background-color: #e6fefd;
+    height:15px;
+}
+.olControlOverviewMapContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.olControlOverviewMapElement {
+     padding: 1px;
+	border:3px inset blue;
+    -moz-border-radius: 1em 0 0 0;
+	background: #fff;
+}
+.olControlOverviewMapMinimizeButton,
+.olControlOverviewMapMaximizeButton {
+    height: 18px;
+    width: 18px;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+}
+.olControlOverviewMapExtentRectangle {
+    overflow: hidden;
+    background-image: url("img/blank.gif");
+    cursor: move;
+    border: 2px dotted red;
+}
+.olControlOverviewMapRectReplacement {
+    overflow: hidden;
+    cursor: move;
+    background-image: url("img/overview_replacement.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.olLayerGeoRSSDescription {
+    float:left;
+    width:100%;
+    overflow:auto;
+    font-size:1.0em;
+}
+.olLayerGeoRSSClose {
+    float:right;
+    color:gray;
+    font-size:1.2em;
+    margin-right:6px;
+    font-family:sans-serif;
+}
+.olLayerGeoRSSTitle {
+    float:left;font-size:1.2em;
+}
+
+.olPopupContent {
+    padding:5px;
+    overflow: auto;
+}
+
+.olControlNavigationHistory {
+   background-image: url("img/navigation_history.png");
+   background-repeat: no-repeat;
+   width:  24px;
+   height: 24px;
+
+}
+.olControlNavigationHistoryPreviousItemActive {
+  background-position: 0 0;
+}
+.olControlNavigationHistoryPreviousItemInactive {
+   background-position: 0 -24px;
+}
+.olControlNavigationHistoryNextItemActive {
+   background-position: -24px 0;
+}
+.olControlNavigationHistoryNextItemInactive {
+   background-position: -24px -24px;
+}
+
+div.olControlSaveFeaturesItemActive {
+    background-image: url(img/save_features_on.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+}
+div.olControlSaveFeaturesItemInactive {
+    background-image: url(img/save_features_off.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+}
+
+.olHandlerBoxZoomBox {
+    border: 2px solid red;
+    position: absolute;
+    background-color: white;
+    opacity: 0.50;
+    font-size: 1px;
+    filter: alpha(opacity=50);
+}
+.olHandlerBoxSelectFeature {
+    border: 2px solid blue;
+    position: absolute;
+    background-color: white;
+    opacity: 0.50;
+    font-size: 1px;
+    filter: alpha(opacity=50);
+}
+
+.olControlPanPanel {
+    top: 500px;
+    right: 120px;
+}
+
+.ol-zoom{
+  top:7px;
+}
+
+.ol-zoomslider{
+  top:67px;
+}
+
+
+.olControlPanPanel div {
+    background-image: url(img/pan-panel.png);
+	background-repeat:no-repeat;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.olControlPanPanel .olControlPanNorthItemInactive {
+    top: 0;
+    left: 9px;
+    background-position: 0 0;
+}
+.olControlPanPanel .olControlPanSouthItemInactive {
+    top: 36px;
+    left: 9px;
+    background-position: 18px 0;
+}
+.olControlPanPanel .olControlPanWestItemInactive {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    background-position: 0 18px;
+}
+.olControlPanPanel .olControlPanEastItemInactive {
+    top: 18px;
+    left: 18px;
+    background-position: 18px 18px;
+}
+
+.olControlZoomPanel {
+    top: 310px;
+    left: 17px;
+}
+
+.olControlZoomPanel div {
+    background-image: url(img/zoom-panel.png);
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.olControlZoomPanel .olControlZoomInItemInactive {
+    top: 0;
+    left: 0;
+    background-position: 0 0;
+    visibility:hidden;
+}
+
+.olControlZoomPanel .olControlZoomToMaxExtentItemInactive {
+    top: 18px;
+    left: 0;
+    background-position: 0 -18px;
+}
+/*plus min zoom button*/
+
+.olControlCustomButtonItemInactive{position:absolute; top:0px; left:2px;}
+.zoomoutItemInactive{position: absolute; top:40px; left:2px;}
+
+/*plus min zoom button*/
+
+.olControlZoomPanel .olControlZoomOutItemInactive {
+    top: 36px;
+    left: 0;
+    background-position: 0 18px;
+    visibility:hidden;
+}
+
+/*
+ * When a potential text is bigger than the image it move the image
+ * with some headers (closes #3154)
+ */
+.olControlPanZoomBar div {
+    font-size: 1px;
+}
+
+.olPopupCloseBox {
+  background: url("img/close.gif") no-repeat;
+  cursor: pointer;
+}
+
+.olFramedCloudPopupContent {
+    padding: 5px;
+    overflow: auto;
+}
+
+.olControlNoSelect {
+ -moz-user-select: none;
+ -khtml-user-select: none;
+}
+
+.olImageLoadError {
+    background-color: pink;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* IE */
+}
+
+/**
+ * Cursor styles
+ */
+
+.olCursorWait {
+    cursor: wait;
+}
+.olDragDown {
+    cursor: move;
+}
+.olDrawBox {
+    cursor: crosshair;
+}
+.olControlDragFeatureOver {
+    cursor: move;
+}
+.olControlDragFeatureActive.olControlDragFeatureOver.olDragDown {
+    cursor: -moz-grabbing;
+}
+
+/**
+ * Layer switcher
+ */
+.olControlLayerSwitcher {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 20em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    font-size: smaller;
+    color: white;
+    background-color: transparent;
+}
+
+.olControlLayerSwitcher .layersDiv {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 75px;
+    background-color: darkblue;
+    width: 100%;
+    height: 100%;
+}
+
+.olControlLayerSwitcher .layersDiv .baseLbl,
+.olControlLayerSwitcher .layersDiv .dataLbl {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.olControlLayerSwitcher .layersDiv .baseLayersDiv,
+.olControlLayerSwitcher .layersDiv .dataLayersDiv {
+    padding-left: 10px;
+}
+
+.dataLayersDiv .labelSpan{padding:7px;}
+.baseLayersDiv .labelSpan{padding:7px;}
+
+.olControlLayerSwitcher .maximizeDiv,
+.olControlLayerSwitcher .minimizeDiv {
+    top: 5px;
+    right: 0;
+    cursor: pointer;
+}
+
+.olBingAttribution {
+    color: #DDD;
+}
+.olBingAttribution.road {
+    color: #333;
+}
+
+.olGoogleAttribution.hybrid, .olGoogleAttribution.satellite {
+    color: #EEE;
+}
+.olGoogleAttribution {
+    color: #333;
+}
+span.olGoogleAttribution a {
+    color: #77C;
+}
+span.olGoogleAttribution.hybrid a, span.olGoogleAttribution.satellite a {
+    color: #EEE;
+}
+
+/**
+ * Editing and navigation icons.
+ * (using the editing_tool_bar.png sprint image)
+ */
+.olControlNavToolbar ,
+.olControlEditingToolbar {
+    margin: 5px 5px 0 0;
+}
+.olControlNavToolbar div,
+.olControlEditingToolbar div {
+    background-image: url("img/editing_tool_bar.png");
+    background-repeat: no-repeat;
+    margin: 0 0 5px 5px;
+    width: 24px;
+    height: 22px;
+    cursor: pointer
+}
+/* positions */
+.olControlEditingToolbar {
+    right: 0;
+    top: 0;
+}
+.olControlNavToolbar {
+    top: 295px;
+    left: 9px;
+}
+/* layouts */
+.olControlEditingToolbar div {
+    float: right;
+}
+/* individual controls */
+.olControlNavToolbar .olControlNavigationItemInactive,
+.olControlEditingToolbar .olControlNavigationItemInactive {
+    background-position: -103px -1px;
+}
+.olControlNavToolbar .olControlNavigationItemActive ,
+.olControlEditingToolbar .olControlNavigationItemActive  {
+    background-position: -103px -24px;
+}
+.olControlNavToolbar .olControlZoomBoxItemInactive {
+    background-position: -128px -1px;
+}
+.olControlNavToolbar .olControlZoomBoxItemActive  {
+    background-position: -128px -24px;
+}
+.olControlEditingToolbar .olControlDrawFeaturePointItemInactive {
+    background-position: -77px -1px;
+}
+.olControlEditingToolbar .olControlDrawFeaturePointItemActive {
+    background-position: -77px -24px;
+}
+.olControlEditingToolbar .olControlDrawFeaturePathItemInactive {
+    background-position: -51px -1px;
+}
+.olControlEditingToolbar .olControlDrawFeaturePathItemActive {
+    background-position: -51px -24px;
+}
+.olControlEditingToolbar .olControlDrawFeaturePolygonItemInactive{
+    background-position: -26px -1px;
+}
+.olControlEditingToolbar .olControlDrawFeaturePolygonItemActive {
+    background-position: -26px -24px;
+}
