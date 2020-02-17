@@ -50,6 +50,13 @@ on the index.html page
 
 
 ###
+#### Versions
+
+Atlas pro: https://mijndatalab.nl/atlas/
+
+Atlas starter: https://mijndatalab.nl/atlas-starter/
+
+
 ### License
 
 GNU General Public License
